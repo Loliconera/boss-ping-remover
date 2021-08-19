@@ -1,18 +1,18 @@
 ## Boss Ping Remover
-Makes the bosses attacks match up with servers
+Hace que los ataques de los jefes coincidan con los servidores.
 
-### Command(s): 
-* `BPR` -- Enable/Disable the module
+### Comando(s): 
+* `BPR` -- Habilitar / Deshabilitar el módulo
 
-* `BPR debug` -- Enable/Disable the debug output
+* `BPR debug` -- Habilitar / Deshabilitar la salida de depuración
 
 ### Config:
 
-Make the following changes to `config/config.json` if **_either_** of the following are true:
+Realice los siguientes cambios en `config/config.json` si se cumple **_alguna_** de las siguientes condiciones:
 
-* If you have high ping (200+ ms) 
+* Si tiene un ping alto (más de 200 ms) 
 
-* If you're using skill prediction (or ping compensation, ping remover, class script, etc)
+* Si está utilizando skill prediction (o ping compensation, ping remover, class script, etc)
 
 ```diff
 {
@@ -23,9 +23,9 @@ Make the following changes to `config/config.json` if **_either_** of the follow
 -   "pingSpikesLimit": false,
 +   "pingSpikesLimit": true,
 -   "pingSpikesMin": 100,
-+   "pingSpikesMin": X, (X = (your minimum ping) - 10 or 20)
++   "pingSpikesMin": X, (X = (su ping mínimo) - 10 o 20)
 -   "pingSpikesMax": 1000,
-+   "pingSpikesMax": Y, (Y = (your normal ping x 2) + 20 or 40)
++   "pingSpikesMax": Y, (Y = (su ping normal x 2) + 20 o 40)
     "minCombatFPS": 30
 }
 ```

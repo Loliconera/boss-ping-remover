@@ -1,8 +1,8 @@
 {
     "disableAutoUpdate": false,
-    "servers": ["https://raw.githubusercontent.com/Mister-Kay/boss-ping-remover/master/"],
-    "supportUrl": "https://github.com/Mister-Kay/boss-ping-remover/issues",
-    "name": "boss-ping-remover",
-    "author": "Mister-Kay",
-    "description": "Makes the bosses attacks match up with servers."
+    "servers": ["https://raw.githubusercontent.com/Loliconera/boss-ping-remover/master/"],
+    "supportUrl": "https://github.com/Loliconera/boss-ping-remover/issues",
+    "name": "Boss-Ping-remover",
+    "author": "Mister-Kay / Loliconera",
+    "description": "Hace que los ataques de los jefes coincidan con los servidores."
 }
